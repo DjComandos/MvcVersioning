@@ -1,0 +1,14 @@
+﻿@model MvcApplicationWithVersioning.Models.Login
+
+@{
+    ViewBag.Title = "title";
+    Layout = "~/Views/Shared2000/_Layout.cshtml";
+}
+
+<h2>2000 version</h2>
+@using(Html.BeginForm("Login", "Authentication", FormMethod.Post))
+{
+    @Html.EditorForModel(Model)
+
+    <input type="submit" value="submit" />
+}
