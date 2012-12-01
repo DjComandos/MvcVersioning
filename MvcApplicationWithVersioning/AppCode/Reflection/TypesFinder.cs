@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace MvcApplicationWithVersioning.Reflection
+namespace MvcApplicationWithVersioning.AppCode.Reflection
 {
     public class TypesFinder
     {

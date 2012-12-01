@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Web;
 
-namespace MvcApplicationWithVersioning.Versioning
+namespace MvcApplicationWithVersioning.AppCode.Versioning
 {
     public class ControllersVersionHelper
     {

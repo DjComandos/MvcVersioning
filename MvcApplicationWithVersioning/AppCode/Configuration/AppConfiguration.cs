@@ -1,6 +1,6 @@
 ﻿using System.Configuration;
 
-namespace MvcApplicationWithVersioning.Configuration
+namespace MvcApplicationWithVersioning.AppCode.Configuration
 {
     public class AppConfiguration : IAppConfiguration
     {

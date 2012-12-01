@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
-using MvcApplicationWithVersioning.Configuration;
+using MvcApplicationWithVersioning.AppCode.Configuration;
+using MvcApplicationWithVersioning.AppCode.ViewEngines;
 using MvcApplicationWithVersioning.Routing;
-using MvcApplicationWithVersioning.ViewEngines;
 
 namespace MvcApplicationWithVersioning
 {

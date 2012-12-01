@@ -1,4 +1,4 @@
-﻿namespace MvcApplicationWithVersioning.Versioning
+﻿namespace MvcApplicationWithVersioning.AppCode.Versioning
 {
 
     // "Version" here is just enum's version, real name of the version is 1000, 1001, etc.

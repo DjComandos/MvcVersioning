@@ -1,4 +1,4 @@
-﻿namespace MvcApplicationWithVersioning.Configuration
+﻿namespace MvcApplicationWithVersioning.AppCode.Configuration
 {
     public interface IAppConfiguration
     {

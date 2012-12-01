@@ -1,8 +1,8 @@
 ﻿using System.Text.RegularExpressions;
 using System.Web.Mvc;
-using MvcApplicationWithVersioning.Configuration;
+using MvcApplicationWithVersioning.AppCode.Configuration;
 
-namespace MvcApplicationWithVersioning.ViewEngines
+namespace MvcApplicationWithVersioning.AppCode.ViewEngines
 {
     public class VersionedRazorViewEngine : RazorViewEngine
     {

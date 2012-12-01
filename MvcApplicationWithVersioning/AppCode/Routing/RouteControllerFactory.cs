@@ -3,8 +3,8 @@ using System.Text.RegularExpressions;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.SessionState;
-using MvcApplicationWithVersioning.Configuration;
-using MvcApplicationWithVersioning.Reflection;
+using MvcApplicationWithVersioning.AppCode.Configuration;
+using MvcApplicationWithVersioning.AppCode.Reflection;
 
 namespace MvcApplicationWithVersioning.Routing
 {
