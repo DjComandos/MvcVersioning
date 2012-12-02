@@ -41,11 +41,10 @@ namespace MvcApplicationWithVersioning
             ControllerBuilder.Current.SetControllerFactory(typeof(RouteControllerFactory));
 
             // register custom razor view engine
-            System.Web.Mvc.ViewEngines.Engines.Clear();
-            System.Web.Mvc.ViewEngines.Engines.Add(new VersionedRazorViewEngine());
+            ViewEngines.Engines.Clear();
+            ViewEngines.Engines.Add(new VersionedRazorViewEngine());
             // note: that there is no custom ViewEngine for webforms (it is need to implement it in case it will needed for API versioning)
-            System.Web.Mvc.ViewEngines.Engines.Add(new WebFormViewEngine());
-
+            ViewEngines.Engines.Add(new WebFormViewEngine());
         }
 
         protected void Application_Start()
